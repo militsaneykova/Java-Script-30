@@ -69,6 +69,9 @@
         console.log(key);
         key.addClass('playing');//adding a class 
         key.classList.add('playing');
+
+        const key = document.querySelectorAll('.key');
+        keys.forEach(key=>key.addEventListener('transitioned', removeTransition));
     });
     </script>
 </body>
