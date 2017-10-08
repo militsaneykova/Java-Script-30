@@ -82,12 +82,12 @@ for (let i =0; i< people.length; i++){
 }
 ///////////////////////////////////////////////////////////////
 // 6) loop over each person and print out a note about their age.
-//    a) if they are under 10 log a message about the person being young
-//    b) if they are over 100 log a message about the person being old
-//    c) otherwise, log any other message about the person's age
+//    if they are under 10 log a message about the person being young
+//    if they are over 100 log a message about the person being old
+//    otherwise, log any other message about the person's age
 
 for (let i=0; i< people.length; i++){
-    if(people[i].age< 10){
+    if(people[i].age < 10){
       console.log('This person is young')
     }else if(people[i].age > 100){
       console.log('This person is old')
@@ -95,3 +95,15 @@ for (let i=0; i< people.length; i++){
         console.log('cool');
       }
    }
+   ////////////////////////////////////////////////////////////
+ //7)  loop over each person until we find someone who is exactly 32 years old
+// if they are not 32, log a message saying this is not who we are looking for
+// if they are 32, log a message saying we found them and then look no further! (do not go into another iteration)
+
+for (let i=0; i< people.length; i++){
+    if(people[i].age === 32){
+        console.log('We found them!!!!');
+    }else
+    console.log('Not who are we looking for')
+}
+///////////////////////////////////////////////////////////////
