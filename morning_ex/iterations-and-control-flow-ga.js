@@ -80,3 +80,18 @@ for (let i =0; i< people.length; i++){
     console.log(people[i].name +" is "+people[i].age+ " years old and "+" has "+ people[i].hobbies.length+ " hobbies")
 
 }
+///////////////////////////////////////////////////////////////
+// 6) loop over each person and print out a note about their age.
+//    a) if they are under 10 log a message about the person being young
+//    b) if they are over 100 log a message about the person being old
+//    c) otherwise, log any other message about the person's age
+
+for (let i=0; i< people.length; i++){
+    if(people[i].age< 10){
+      console.log('This person is young')
+    }else if(people[i].age > 100){
+      console.log('This person is old')
+      }else{
+        console.log('cool');
+      }
+   }
