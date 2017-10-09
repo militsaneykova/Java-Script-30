@@ -29,7 +29,7 @@ var movie = {
     director: 'Robert Zemeckis'
   };
 
-  movie.rating = 8.5;
+movie.rating = 8.5;
 console.log(`The ${movie.title}'s raithing is ${movie.rating} and it is director is ${movie.director}`);
 
 // 4) Loop over the people and log out everyone's name
@@ -107,3 +107,9 @@ for (let i=0; i< people.length; i++){
     console.log('Not who are we looking for')
 }
 ///////////////////////////////////////////////////////////////
+// 8) loop through the array to find the largest element
+let arr = [55, 2, 4, 1, 77, 32, 13];
+newArr=arr.sort();
+last = newArr.slice(-1)[0] ;
+console.log(last);
+/////////////////////////////////////////////////
