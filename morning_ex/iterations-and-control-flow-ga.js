@@ -113,3 +113,34 @@ newArr=arr.sort();
 last = newArr.slice(-1)[0] ;
 console.log(last);
 /////////////////////////////////////////////////
+// 9)change the values and length of the array 
+let arr = [55, 2, 4, 1, 77, 32, 13];
+
+arr.pop();
+arr.push('pink');
+console.log(arr.length);
+////////////////////////////////////////////////
+// 10) loop over the people to find the old person
+// log the name of the oldest person
+// the logged output should be:
+//   'Macey is the oldest person'
+// 
+
+let bigNum=[];
+for (let i=0; i< people.length; i++){
+  if(people[i].age > bigNum){
+    bigNum [i]= people[i].age
+    console.log(`The person ${people[i].name} +"is" ${people[i].age}+ 'years old'`)
+    }
+ }
+
+//  let oldPerson;
+ // let bigNum = 0;
+ // for (let i = 0; i< people.length; i++){
+ //   for (let x = 0; x<people[i].length; x++ ){
+ //     if(people[i][x] > bigNum[i]){
+ //       bigNum[i] = people[i][x]
+ //     }
+ //   }
+ // }
+ // console.log('')
