@@ -130,7 +130,7 @@ let bigNum=[];
 for (let i=0; i< people.length; i++){
   if(people[i].age > bigNum){
     bigNum [i]= people[i].age
-    console.log(`The person ${people[i].name} +"is" ${people[i].age}+ 'years old'`)
+    console.log(`The person ${people[i].name} +"is" ${bigNum}+ 'years old'`)
     }
  }
 
