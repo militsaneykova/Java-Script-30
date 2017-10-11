@@ -7,3 +7,11 @@
     console.log (3.14 * radius*radius)
 }
 ariaCircle(2);
+
+
+// Exercise 2:
+// Write a function that converts temperature from fahrenheit to celsius.
+// Call the function to test it.
+function convertTemp (temp){
+    return temp - 32 *0.5556
+}
