@@ -14,3 +14,21 @@ function FizzBuzz (num) {
 }
 FizzBuzz(15);
 
+//2) A function that reverses a string
+    // with build in functions
+function reverseString (str) {
+    let newWord = str.split("").reverse();
+    let joinNewWord = newWord.join("");
+    return joinNewWord;
+}
+    // without build in functions
+function reverseString (str) {
+    let newStr = "";
+    for (let i = str.length -1; i >=0 ; i-- ){
+        newStr += str[i];
+    }
+    return newStr
+}
+reverseString ('apple')
+
+
